@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-image: url(./weather.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.container{
+    text-align: center;
+    display: flex; 
+    justify-content: center;
+    margin: 200px; 
+    font-size: 60px;
+    background-color: rgb(245, 244, 243);
+}
+input{
+    font-size: 30px;
+    /* margin: 10px; */
+    border-radius: 5px;
+    background-color: rgb(244, 248, 248);
+}
